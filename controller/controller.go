@@ -6,7 +6,7 @@ import (
     "net/http"
     "strconv"
 
-    "projeto0/service"
+    "github.com/attilamonteiro/deserialize-explosion/service"
 )
 
 type Controller struct {

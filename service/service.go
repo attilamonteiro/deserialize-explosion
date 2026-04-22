@@ -13,8 +13,8 @@ import (
     "strings"
     "time"
 
-    "projeto0/repository"
-    "projeto0/model"
+    "github.com/attilamonteiro/deserialize-explosion/repository"
+    "github.com/attilamonteiro/deserialize-explosion/model"
 )
 
 type Service struct {

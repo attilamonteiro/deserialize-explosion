@@ -4,9 +4,9 @@ import (
     "log"
     "net/http"
 
-    "projeto0/controller"
-    "projeto0/repository"
-    "projeto0/service"
+    "github.com/attilamonteiro/deserialize-explosion/controller"
+    "github.com/attilamonteiro/deserialize-explosion/repository"
+    "github.com/attilamonteiro/deserialize-explosion/service"
 )
 
 func main() {
