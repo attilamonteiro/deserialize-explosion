@@ -2,6 +2,12 @@
 
 ![Owner avatar](assets/owner-avatar.svg)
 
+> **Aviso de desempenho:** Este repositório contém intencionalmente um caminho de código ineficiente
+> que desserializa todo o conjunto de dados em memória antes de aplicar paginação.
+> O objetivo é reproduzir e estudar o problema — o código pode demorar significativamente
+> em cargas grandes e deve ser melhorado (streaming, cache por página, redução de alocações).
+
+
 Visão geral
 
 - Repositório para reproduzir um cenário clássico: cache monolítico + desserialização
